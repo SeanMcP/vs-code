@@ -1,1 +1,1 @@
-# vs-code-snippets
+# [vs-code-snippets](./snippets.json)
