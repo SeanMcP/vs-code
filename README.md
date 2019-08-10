@@ -1,1 +1,1 @@
-# [vs-code-snippets](./snippets.json)
+# [vs-code-snippets](./snippets.code-snippets)
