@@ -21,12 +21,12 @@
         "body": [
             "import React from 'react'",
             "",
-            "function $1(props) {",
-            "   return (",
-            "       <div className=\"$1\">",
-            "           {/* code here */}",
-            "       </div>",
-            "   )",
+            "function $1($2) {",
+            "    return (",
+            "        <div className=\"$1\">",
+            "            $0",
+            "        </div>",
+            "    )",
             "}",
             "",
             "export default $1"
