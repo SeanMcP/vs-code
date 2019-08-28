@@ -1,1 +1,3 @@
-# [vs-code-snippets](./snippets.code-snippets)
+# VS Code
+
+- [Snippets](/snippets.code-snippets)
