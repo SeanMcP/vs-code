@@ -16,7 +16,7 @@
     // 	"description": "Log output to console"
     // }
     "New React Component": {
-        "scope": "javascript",
+        "scope": "javascript,typescript",
         "prefix": "nrc",
         "body": [
             "import React from 'react'",
@@ -26,6 +26,25 @@
             "        <div className=\"$1\">",
             "            $0",
             "        </div>",
+            "    )",
+            "}",
+            "",
+            "export default $1"
+        ],
+        "description": "Create a new React component"
+    },
+    "New React Native Component": {
+        "scope": "javascript,typescript",
+        "prefix": "nrnc",
+        "body": [
+            "import React from 'react'",
+            "import { View } from 'react-native'",
+            "",
+            "function $1($2) {",
+            "    return (",
+            "        <View>",
+            "            $0",
+            "        </View>",
             "    )",
             "}",
             "",
